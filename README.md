@@ -1,4 +1,6 @@
-# Minimal Flask Static Portfolio
+# lodhajaydeep401.github.io
+
+🚀 Personal portfolio website showcasing my software engineering projects, data analytics work, learning logs, technical blogs, and professional resume. Fully responsive and optimized for web and mobile.
 
 This project is a simple, lightweight personal portfolio built with Flask and Frozen-Flask (static export). It uses Tailwind (CDN) for styling and Markdown files for blog posts.
 
@@ -48,3 +50,4 @@ Notes
 
 - To add a blog post: create a Markdown file in `content/blogs/` named like `YYYY-MM-DD-your-slug.md` and include a top-level `# Title` heading. The site will pick it up on the next build.
 - Edit `data/projects.json` to update the projects grid.
+
