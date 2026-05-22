@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Example Project",
+    "description": "A minimal, fast example project showcasing responsive UI and a small footprint.",
+    "tech": ["Flask", "Tailwind", "Markdown"],
+    "live_url": "#",
+    "repo_url": "https://github.com/yourusername/example-project"
+  }
+]

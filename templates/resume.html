@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Resume — Portfolio{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-semibold mb-4">Resume</h1>
+<p class="mb-4">A clean online resume. Download as PDF below.</p>
+<div class="mb-6">
+  <a href="/static/resume.pdf" class="px-4 py-2 bg-indigo-600 text-white rounded" download>Download PDF</a>
+  <a href="/static/resume.pdf" class="ml-3 text-sm" target="_blank">Open Viewer</a>
+</div>
+<div class="border rounded p-4 bg-white dark:bg-gray-800">
+  <h2 class="font-medium">Your Name</h2>
+  <p class="text-sm text-gray-600 dark:text-gray-300">Short professional summary goes here.</p>
+  <h3 class="mt-4 font-semibold">Experience</h3>
+  <ul class="list-disc ml-6 text-sm text-gray-600 dark:text-gray-300">
+    <li>Role — Company (Year — Year)</li>
+  </ul>
+</div>
+{% endblock %}
