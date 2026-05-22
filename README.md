@@ -37,7 +37,7 @@ python freeze.py
 
 Deployment
 
-- **GitHub Pages**: push this repo to GitHub, then enable Pages from the `gh-pages` branch. The included workflow automatically builds `build/` and deploys it on every push to `main`.
+- **GitHub Pages**: push this repo to GitHub, then enable Pages from the `main` branch and `docs/` folder. The project now includes the built site in `docs/`, so it can publish directly without waiting for GitHub Actions.
 - **Vercel**: connect the GitHub repo and use the static `build/` directory as your published output, or deploy directly from the repository and let the site run as a static app.
 
 GitHub Actions
