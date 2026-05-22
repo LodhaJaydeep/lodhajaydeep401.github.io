@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My First Post — Blog</title>
+    <meta name="description" content="Personal portfolio" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Minimal container width */
+      .container { max-width: 1100px; margin: 0 auto; }
+    </style>
+  </head>
+  <body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 antialiased">
+    <header class="py-6 border-b border-gray-200 dark:border-gray-800">
+      <div class="container px-6 flex items-center justify-between">
+        <a href="/" class="font-semibold text-xl">Your Name</a>
+        <nav class="space-x-4 text-sm">
+          <a href="/">Home</a>
+          <a href="/projects/">Projects</a>
+          <a href="/blog/">Blog</a>
+          <a href="/resume/">Resume</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container px-6 py-10">
+      
+<article class="prose dark:prose-invert max-w-none">
+  <h1>My First Post</h1>
+  <div><h1 id="my-first-post">My First Post</h1>
+<p>Welcome to my learning log. This site uses Markdown files as sources for blog posts — just drop a new <code>.md</code> file into <code>content/blogs/</code>.</p>
+<h2 id="whats-next">What's next</h2>
+<ul>
+<li>Improving performance</li>
+<li>Adding more projects</li>
+</ul></div>
+</article>
+
+    </main>
+
+    <footer class="py-10 border-t border-gray-200 dark:border-gray-800">
+      <div class="container px-6 text-sm text-center">©  Your Name — Built with Flask + Tailwind</div>
+    </footer>
+  </body>
+  <script>
+    // Set year for footer
+    document.addEventListener('DOMContentLoaded', function(){
+      const el = document.querySelector('footer div');
+      if(el){ el.innerHTML = '© ' + new Date().getFullYear() + ' Your Name — Built with Flask + Tailwind'; }
+    });
+  </script>
+</html>
